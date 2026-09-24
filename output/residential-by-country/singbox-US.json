@@ -6,13 +6,17 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-      "server": "188.114.97.6",
+      "server": "104.21.238.93",
       "server_port": 443,
       "uuid": "50414e45-4c5f-5a45-5553-44890b90d17e",
       "tls": {
         "enabled": true,
         "server_name": "afzoybehu2ws.vtzv4xe1un6s.workers.dev",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",

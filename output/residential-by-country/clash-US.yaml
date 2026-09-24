@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
-  server: 188.114.97.6
+  server: 104.21.238.93
   port: 443
   udp: true
   type: vless
@@ -13,6 +13,7 @@ proxies:
   tls: true
   servername: afzoybehu2ws.vtzv4xe1un6s.workers.dev
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /stream/PANEL_ZEUS/44890b90d17e/loc-0
