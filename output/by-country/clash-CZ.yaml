@@ -5,72 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 104.17.148.22
-  port: 80
-  udp: true
-  type: vless
-  uuid: 63f1ef69-92fd-427a-b3e4-98ffddf81ac6
-  network: ws
-  ws-opts:
-    path: /nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=
-    headers:
-      Host: young-rice-749e.heliy78750.workers.dev
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 104.17.147.22
-  port: 2052
-  udp: true
-  type: vless
-  uuid: 401d950d-4f5c-45c7-bf44-8b69acf35f6f
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZUV1OVVaQ2xSWiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: 7x70yyvt7eqotx-iq9n3rjt1xn1jwkh9.asdfsafdsaf.workers.dev
-- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
-  server: 104.17.148.22
-  port: 443
-  udp: true
-  type: vless
-  uuid: 513beae3-56e7-4954-a17e-930e06237b27
-  tls: true
-  servername: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vl/3wSAeuGJbrGHwJ45DA6ircvHC6?ed=2560
-    headers:
-      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
-- name: 🇨🇿 捷克 (Czech) 04 - xiaohe
-  server: 104.21.70.21
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 8f53fce2-6c17-4e37-9ae9-d969fd85117c
-  network: ws
-  ws-opts:
-    path: /vl/Wp4FqWLcoYNYXCovu4
-    headers:
-      Host: api-hub-c9a393.alimirzai539-484.workers.dev
-- name: 🇨🇿 捷克 (Czech) 05 - xiaohe
-  server: 63.141.128.22
-  port: 443
-  udp: true
-  type: vless
-  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
-  tls: true
-  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
-- name: 🇨🇿 捷克 (Czech) 06 - xiaohe
-  server: 153.76.185.148
+  server: 153.76.185.96
   port: 3090
   udp: true
   type: vless
-  uuid: 1552d599-a036-4389-a5c0-bf14dfaddc1a
+  uuid: be2c444d-74a1-407c-a88c-cba06f9a58dc
   network: grpc
   grpc-opts:
     grpc-service-name: vless
@@ -80,21 +19,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
-  - 🇨🇿 捷克 (Czech) 04 - xiaohe
-  - 🇨🇿 捷克 (Czech) 05 - xiaohe
-  - 🇨🇿 捷克 (Czech) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
-  - 🇨🇿 捷克 (Czech) 04 - xiaohe
-  - 🇨🇿 捷克 (Czech) 05 - xiaohe
-  - 🇨🇿 捷克 (Czech) 06 - xiaohe
 rules:
 - MATCH,PROXIES
