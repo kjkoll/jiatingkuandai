@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 181.214.1.30
+  server: 92.53.188.30
   port: 8880
   udp: true
   type: vless
@@ -14,7 +14,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime39.workers.dev
+      Host: vms.lifetime18.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
