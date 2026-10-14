@@ -16,9 +16,9 @@ proxies:
     public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
     short-id: 88b6
   servername: deepl.com
-  client-fingerprint: qq
+  client-fingerprint: safari
 - name: 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
-  server: co-a.speedtec.ru
+  server: 77.110.105.122
   port: 443
   udp: true
   type: vless

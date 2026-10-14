@@ -44,7 +44,20 @@ proxies:
   servername: www.datadoghq.com
   client-fingerprint: qq
 - name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  server: tr2.h1cloud.net
+  server: 201.34.148.44
+  port: 443
+  udp: true
+  type: vless
+  uuid: 93996a55-febe-4183-9366-df6cb11a34dd
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: r6lN34m1nN-xQZ458j5NPD5xJ3_QBF2bGzY4KJEo4ic
+    short-id: abbcd128
+  servername: sun9-38.userapi.com
+  client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  server: 45.133.151.176
   port: 25375
   udp: true
   type: vless
@@ -54,11 +67,11 @@ proxies:
     public-key: PdiXtqIEtNpVRKgB1WCKnmIOC7yJ-VR4uUe1uYjcqXM
     short-id: 8e2a0cd6de5dc50a
   servername: www.bing.com
-  client-fingerprint: random
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: 05195f917c82
-- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+- name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
   server: 85.192.48.142
   port: 443
   udp: true
@@ -70,19 +83,6 @@ proxies:
     public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
     short-id: db04ce8bdb8900f1
   servername: nvidia.com
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  server: 153.56.210.61
-  port: 443
-  udp: true
-  type: vless
-  uuid: 0de1d303-d7de-0001-8679-c4cb67e2e2cc
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-    short-id: a696de84963656de
-  servername: amd.com
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
