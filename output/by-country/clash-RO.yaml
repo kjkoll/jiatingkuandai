@@ -46,14 +46,6 @@ proxies:
     short-id: 31e91d43e553bf32
   servername: gateway.icloud.com
   client-fingerprint: chrome
-- name: 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
-  server: 185.156.44.99
-  port: 443
-  udp: true
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: www.amazon.com
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -63,7 +55,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
   - 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
   - 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -73,6 +64,5 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
   - 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
   - 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
 rules:
 - MATCH,PROXIES
