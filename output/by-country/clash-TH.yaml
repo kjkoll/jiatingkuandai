@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 泰国 (Thailand) 01 - xiaohe
-  server: 188.114.98.0
+  server: 104.16.10.2
   port: 443
   udp: true
   type: vless
@@ -19,7 +19,7 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
-  server: support.zoom.us.v2ray.simspeedup.com
+  server: v2ray.simspeedup.com
   port: 80
   udp: true
   type: vless
@@ -27,8 +27,6 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
-    headers:
-      Host: support.zoom.us.v2ray.simspeedup.com
 - name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
   server: th001.zestapp778.com
   port: 22222
@@ -53,18 +51,18 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇹🇭 泰国 (Thailand) 05 - xiaohe
-  server: 154.21.203.106
-  port: 21033
+  server: 109.237.98.213
+  port: 443
   udp: true
   type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  uuid: 26f751bc-2edc-4338-9c3f-abeb32aba3b7
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-    short-id: cbd39bea0805e2
-  servername: www.kaidee.com
-  client-fingerprint: chrome
+    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
+    short-id: 6ba85179e30d4fc2
+  servername: xy4l6bpbjk.xeltrona-host26.sbs
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
