@@ -5,24 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇵🇹 葡萄牙 (Portugal) 01 - xiaohe",
-      "server": "31.192.237.186",
-      "server_port": 2053,
-      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
+      "tag": "🇦🇱 AL 01 - xiaohe",
+      "server": "151.123.187.198",
+      "server_port": 443,
+      "uuid": "b24ad12f-f6ce-4f0b-a264-d58a76104026",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "wzs.echo.net.eu.org",
-        "insecure": false,
+        "server_name": "al2.magazinnarubeva.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlxQSwUEVRwJUx8BQRoaSVhfRhoOChkDDUs=",
-        "headers": {
-          "Host": "wzs.echo.net.eu.org"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "trN5x0amt2YuVzF2vZnK294YBAuh_zl5QkZjPyWz-TI",
+          "short_id": "8718c58d3d51db59"
         }
       }
     },
@@ -31,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇹 葡萄牙 (Portugal) 01 - xiaohe"
+        "🇦🇱 AL 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇹 葡萄牙 (Portugal) 01 - xiaohe"
+        "🇦🇱 AL 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

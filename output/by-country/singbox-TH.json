@@ -4,8 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe",
+      "server": "119.46.51.45",
+      "server_port": 37515,
+      "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
+      "security": "auto"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇹🇭 泰国 (Thailand) 02 - xiaohe",
       "server": "th001.zestapp778.com",
       "server_port": 33079,
       "password": "5t6i121em5lkmsmk",
@@ -17,7 +25,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 02 - xiaohe",
+      "tag": "🇹🇭 泰国 (Thailand) 03 - xiaohe",
       "server": "45.154.26.63",
       "server_port": 443,
       "uuid": "ff85e702-b605-4109-884d-2c1f065d0954",
@@ -33,25 +41,6 @@
           "enabled": true,
           "public_key": "MiQ5B4j6In71lWvCi0vO_DkVSDb7sii34bh5efBMswk",
           "short_id": "3c032a7e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 03 - xiaohe",
-      "server": "103.247.28.203",
-      "server_port": 443,
-      "uuid": "64726966-0000-4000-8000-740000000000",
-      "tls": {
-        "enabled": true,
-        "server_name": "parsa-panel-dy55x.railway1385-2a46.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fp=firefox",
-        "headers": {
-          "Host": "parsa-panel-dy55x.railway1385-2a46.workers.dev"
         }
       }
     },
