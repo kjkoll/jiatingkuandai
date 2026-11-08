@@ -4,14 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇨🇳 CN 01 - xiaohe",
-      "server": "39.108.113.127",
-      "server_port": 10086,
-      "uuid": "fccbad0f-eb6c-4bdd-80ed-145409e2f761",
-      "security": "auto",
-      "transport": {
-        "type": "ws"
+      "type": "trojan",
+      "tag": "🇵🇭 菲律宾 (Philippines) 01 - xiaohe",
+      "server": "130.94.51.219",
+      "server_port": 46298,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "ph001.zestapp778.com",
+        "insecure": false
       }
     },
     {
@@ -19,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇳 CN 01 - xiaohe"
+        "🇵🇭 菲律宾 (Philippines) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇳 CN 01 - xiaohe"
+        "🇵🇭 菲律宾 (Philippines) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
