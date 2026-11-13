@@ -26,6 +26,21 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: explorecareerpathsandunlockprofessionalsuccesstoday.com
   skip-cert-verify: false
+- name: 🇿🇦 南非 (South Africa) 04 - xiaohe
+  server: 102.208.217.14
+  port: 2087
+  udp: true
+  type: vless
+  uuid: ead4a562-edf2-40cf-ad33-13ae98546226
+  tls: true
+  reality-opts:
+    public-key: eeD55i5qwcb8fvWZuJF6o-o2Ums4QEenTer8iNtobUk
+    short-id: d9d5b093
+  servername: dl.google.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -34,6 +49,7 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 01 - xiaohe
   - 🇿🇦 南非 (South Africa) 02 - xiaohe
   - 🇿🇦 南非 (South Africa) 03 - xiaohe
+  - 🇿🇦 南非 (South Africa) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -42,5 +58,6 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 01 - xiaohe
   - 🇿🇦 南非 (South Africa) 02 - xiaohe
   - 🇿🇦 南非 (South Africa) 03 - xiaohe
+  - 🇿🇦 南非 (South Africa) 04 - xiaohe
 rules:
 - MATCH,PROXIES
