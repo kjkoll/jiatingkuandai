@@ -5,17 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 77.83.245.79
+  server: 188.225.36.219
   port: 443
   udp: true
   type: vless
-  uuid: a346c521-7a7f-452b-9356-a4893feb5982
-  flow: xtls-rprx-vision
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
   tls: true
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-  servername: tr1-r.bankai.party
-  client-fingerprint: chrome
+  servername: olvento.space
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: olvento.sync.v1
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   server: 185.246.155.91
   port: 10103
